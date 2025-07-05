@@ -1,0 +1,51 @@
+/* Main CSS Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+  --brand-color: #0A400C;
+  --base-color: #FEFAE0;
+  --surface-color: #B1AB86;
+  --text-color: #191b23;
+  --secondary-text-color: #819067;
+  --base-transparent-90: rgba(254, 250, 224, 0.9);
+  --base-transparent-100: rgba(254, 250, 224, 1);
+}
+  
+.dark-theme {
+  --brand-color: #4CAF50;
+  --base-color: #1a1a1a;
+  --surface-color: #2d2d2d;
+  --text-color: #ffffff;
+  --secondary-text-color: #b0b0b0;
+  --base-transparent-90: rgba(26, 26, 26, 0.9);
+  --base-transparent-100: rgba(26, 26, 26, 1);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+    background-color: var(--base-color);
+    color: var(--text-color)
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+button, input, textarea {
+    font: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* Classes Styling */
