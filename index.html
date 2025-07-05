@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> diary </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header> 
+        <h1> Diary </h1>
+        <div> 
+            <button class="add-entry"> Add Entry </button>
+            <button class="toggle-theme-btn"> Change Theme </button>
+        </div>
+    </header>
+
+    <!-- Diary Entries -->
+
+    <main id="notes-container" class="notes-grid">
+        <dialog class="note-dialog">
+            <div class="dialog-content"> 
+                <div class="dialog-header"> 
+                    <h2 class="dialog-title"> Add New Entry </h2>
+                    <button class="close-btn"> X </button>
+                </div>
+
+                <form id="noteForm">   
+                    <div class="form-group">
+                        <label class="form-label"> Title </label>
+                        <input class="form-input"> 
+                    </div>
+
+                    <div lass="form-group">
+                        <label class="form-label"> Content </label>
+                        <textarea class="form-textarea"> </textarea>
+                    </div>
+
+                    <div lass="form-group">
+                        <button class="cancel-btn"> Cancel </button>
+                        <button class="save-btn"> Save Note  </button>
+                    </div>
+
+                </form>
+            </div>
+        </dialog>
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
