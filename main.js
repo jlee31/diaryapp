@@ -7,6 +7,25 @@ const generateId = () => {
 
 // Core Functions
 
+const openDialog = () => {
+    console.log("openDialog")
+}
+
+const closeDialog = () => {
+    console.log("close dialog")
+}
+
+const saveEntry = () => {
+    console.log("add new diary entry")
+}
+
+const editEntry = () => {
+    console.log("edit an entry")
+}
+
+const deleteEntry = () => {
+    console.log("delete an entry")
+}
 
 // Utility Functions
 
